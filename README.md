@@ -1,99 +1,68 @@
-🛒 RetailPulse: Blinkit Strategic Sales & Customer Intelligence
+# 🛒 Blinkit Customer & Sales Analysis (Power BI)
 
+[![Power BI](https://img.shields.io/badge/Power_BI-Desktop-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![DAX](https://img.shields.io/badge/DAX-Data_Analysis-217346?style=for-the-badge)](https://learn.microsoft.com/en-us/dax/)
+[![Power Query](https://img.shields.io/badge/Power_Query-M_Language-blue?style=for-the-badge)](https://learn.microsoft.com/en-us/powerquery-m/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
+## 📌 Project Overview
 
+This project provides a comprehensive analysis of Blinkit's sales performance, customer demographics, and inventory efficiency. By transforming raw transactional data into actionable insights, this dashboard helps stakeholders identify high-growth opportunities and optimize delivery performance.
 
-🏛️ Project Overview
+---
 
-RetailPulse is a comprehensive business intelligence solution designed to analyze the retail operations of Blinkit. By transforming fragmented transactional data into a unified, interactive dashboard, this project provides a deep-dive into sales performance, customer demographics, and inventory efficiency. The goal is to provide stakeholders with actionable insights to optimize revenue and customer retention.
+## 📸 Dashboard Preview
 
+![Blinkit Dashboard](Screenshot%202026-02-03%20213440.png)
 
+---
 
+## 🛠️ Tech Stack
 
-🔍 Key Business Insights & Impact
+| Component | Tool Used |
+|---|---|
+| **BI Tool** | Power BI Desktop |
+| **Data Cleaning** | Power Query (M Language) |
+| **Calculations** | DAX (Data Analysis Expressions) |
+| **Data Source** | CSV/Excel |
 
-Metric
-Business Impact
-Strategic Outcome
-Customer Segmentation
-Identified 3 high-value personas.
-65% of total revenue accounted for.
-Retention Analysis
-Found 15% drop-off in weekend orders.
-Enabled targeted weekend promotions.
-Workflow Automation
-Power Query ETL implementation.
-40% reduction in manual data prep.
-Buying Patterns
-Evening slot vs bulk-purchase correlation.
-Optimized inventory for peak hours.
+---
 
+## 📊 Key Business Insights & Impact
 
+- 📈 **Revenue Growth:** Identified top-performing customer segments contributing to **65% of total revenue**.
+- 🔻 **Retention Analysis:** Pinpointed a **15% drop-off** in weekend order frequency, suggesting a need for weekend-specific promotions.
+- ⚙️ **Operational Efficiency:** Automated data cleaning workflows, reducing reporting time by **40%**.
+- 🛍️ **Customer Behavior:** Discovered a **12% correlation** between evening time slots and bulk-purchase grocery categories.
 
+---
 
-High-Impact Findings
+## 📂 Project Structure
 
-• Revenue Concentration: Discovered that a small segment of power users drives the majority of growth, allowing for a 20% shift in marketing budget toward retention.
+```
+Blinkit-Customer-Analysis/
+├── POWER BI PROJECTS.pbix      # Main Power BI dashboard file
+├── Screenshot 2026-02-03 213440.png   # Dashboard preview image
+└── README.md                    # Project documentation
 
-• Operational Efficiency: Automated the end-to-end data transformation pipeline, ensuring real-time reporting accuracy with zero manual intervention.
+```
 
-• Time-of-Day Optimization: Identified a 12% correlation between specific time slots and bulk grocery categories, leading to better stock allocation.
+---
 
+## 🚀 How to View
 
+1. Download the `.pbix` file from this repository.
+2. Open it in **Power BI Desktop** to interact with the filters and explore the dashboard.
 
+---
 
-🛠️ Technical Architecture
+## 📄 License
 
-Data Pipeline & Methodology
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-1. ETL Process: Utilized Power Query (M Language) for data cleaning, normalization, and structural transformation.
+---
 
-2. Data Modeling: Implemented a Star Schema to ensure high performance and scalability of the dashboard.
+## 📬 Contact
 
-3. Analytics Engine: Developed complex DAX measures for advanced KPIs, including Year-over-Year (YoY) growth and customer lifetime value (CLV) proxies.
-
-4. Visualization: Crafted a multi-layered dashboard featuring interactive slicers, drill-through reports, and cross-filtering.
-
-Tech Stack
-
-• BI Tool: Power BI Desktop
-
-• ETL Engine: Power Query
-
-• Analytics: DAX (Data Analysis Expressions)
-
-• Design: Custom-themed interactive visualizations
-
-
-
-
-📂 Repository Structure
-
-Plain Text
-
-
-├── POWER BI PROJECTS.pbix  # Core Power BI Research & Dashboard
-├── data/                   # Retail & Transactional Datasets
-└── README.md               # Executive Documentation
-
-
-
-
-
-
-🤝 Connect & Collaborate
-
-Shubham Kumar
-Computer Science (AIML) Undergraduate
-
-• LinkedIn: https://www.linkedin.com/in/shubham-kumar-565040253/
-
-• GitHub: https://github.com/shubham333k
-
-• Email: shubhamjhanjhot333k@gmail.com
-
-
-
-
-This project was developed as part of a Data Science Portfolio focused on Retail & Sales Analytics.
-
+**Shubham Kumar**
+GitHub: [@shubham333k](https://github.com/shubham333k)
